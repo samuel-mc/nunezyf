@@ -47,8 +47,9 @@
 
 .btn--colorThird {
     background-color: var(--color-third);
-    border-color: var(--color-first);
+    border:1px solid var(--color-first);
     color: var(--color-first);
+    transition: all 0.5s ease-in-out;
 }
 
 .btn--colorThird:hover {
@@ -196,6 +197,13 @@
     background-position: center;
     border-radius: 0 0 40px 40px;
 }
+.bg--footer {
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: start;
+}
+
 .bg--colorFirst {
     background-color: var(--color-first);
 }
@@ -220,6 +228,10 @@
 }
 .card__space{       /*Estilo para agregar espacio en algun grid*/
     display: block;
+}
+
+.radius-md{
+    border-radius: 12px;
 }
 
 

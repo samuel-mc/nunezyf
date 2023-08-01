@@ -1,7 +1,7 @@
 <header class="d-none d-lg-block bg--colorSecond bg--image2">
     <div class="container d-flex justify-content-between align-items-center py-3">
         <a href="<?php echo __ROOT__; ?>">
-            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
+            <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
         </a>
         <nav class="navbar__list">
             <ul>

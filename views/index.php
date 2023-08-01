@@ -11,7 +11,7 @@
                 <p class="text--colorFirst">Más de 100 años trabajando en el futuro académico de México.</p>
                 <div class="grid--2cols gap-2 align-items-center">
                     <a class="btn btn--colorFirst" href="<?php echo __ROOT__; ?>#contacto">INSCRÍBETE</a>
-                    <img src="<?php echo __ROOT__; ?>/public/img/10k.png">
+                    <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/10k.png">
                 </div>
             </div>
             <div class="p-0 p-sm-4 position-relative">
@@ -249,8 +249,45 @@
                     <button class="btn btn--colorThird">Descargar PDF.</button>
                 </div>
             </div>
-
         </div>
+    </section>
+
+    <section class="bg--colorSecond">
+        <div class="container grid--2cols">
+            <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/becas.png">                        
+            <div class="py-4 p-sm-4 text--colorFirst">
+                <h1 class="font-weight-bold">BECAS</h1>
+                <p>Estamos comprometidos con la educación por lo que ofrecemos grandes descuentos a nuestro alumnado basado en sus promedios anteriores, aptitudes y sobre todo; sus ganas de estudiar y superarse.</p>
+                <div>
+                    <a href="" class="btn btn--colorFirst">APLICA PARA UNA BECA</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text--colorFirst container grid--2cols py-5 align-items-center gap-8">
+        <form id="formulario" class="radius-md shadow-lg text-left py-4 px-5 rounded-lg gap-2">
+            <h1 class="font-weight-bold text-center">Contactar</h1>
+            <div>
+                <input type="text" class="radius-md btn--colorThird p-2 w-100" placeholder="Nombre">
+            </div>
+            <div>
+                <input type="email" class="radius-md btn--colorThird p-2 w-100" placeholder="Correo">
+            </div>
+            <div>
+                <input type="text" class="radius-md btn--colorThird p-2 w-100" placeholder="Asunto">
+            </div>
+            <div>
+                <input type="text" class="radius-md btn--colorThird p-2 w-100" placeholder="Número de teléfono">
+            </div>
+            <div>
+                <textarea class="radius-md p-2 w-100 btn--colorThird" id="mensaje" rows="4" placeholder="Mensaje"></textarea>
+            </div>
+            <a href="#" class="btn btn--colorFirst px-5 py-3 m-2">
+                Enviar mensaje
+            </a>
+        </form>
+        <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/mapa.png">                        
     </section>
 </main>
 <?php include 'partials/footer.php'; ?>

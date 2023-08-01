@@ -1,48 +1,42 @@
-<footer class="container-fluid maxw--1280 py-2">
-    <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
-        <div class="">
+<footer class="container-fluid maxw--1280 bg--footer text--colorFirst p-1 p-sm-4"> 
+    <div class="grid--3cols align-items-center">
+        <div class="gap-4">
             <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo de la empresa">
+            <h3 >Educando a México desde 1918.</h3>
         </div>
-        <div class="navbar__list">
-            <ul class="flex-row flex-wrap align-items-center">
-                <li class="my-3 mx-3">
-                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>">Inicio
-                    </a>
-                </li>
-                <li class="my-3 mx-3">
-                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>#unidadDeInspeccion">Servicios
-                    </a>
-                </li>
-                <li class="my-3 mx-3">
-                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>solicitud">Solicitud
-                    </a>
-                </li>
-                <li class="my-3 mx-3">
-                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>acerca">Acerca
-                    </a>
-                </li>
-                <li class="my-3 mx-3">
-                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>contacto">Contacto
-                    </a>
-                </li>
-                <li class="my-3 mx-3">
-                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>preguntas">Preguntas frecuentes
-                    </a>
-                </li>
-                <li class="my-3 mx-3">
-                    <a class="a--colorFirst" href="https://jumpshare.com/v/o8pcODbKJASSs5uhOqF7" target="_blank">
-                        Aviso de privacidad
-                    </a>
-                </li>
-            </ul>
+        <div class="">
+            <h3 class="font-weight-bold">Navegación</h3>
+            <div class="my-3 mx-0">
+                <a class="text--colorFirst" href="<?php echo __ROOT__; ?>">Home</a>
+            </div>
+            <div class="my-3 mx-0">
+                <a class="text--colorFirst" href="<?php echo __ROOT__; ?>">Acerca</a>
+            </div>
+            <div class="my-3 mx-0">
+                <a class="text--colorFirst" href="<?php echo __ROOT__; ?>">Programas academicos</a>
+            </div>
+            <div class="my-3 mx-0">
+                <a class="text--colorFirst" href="<?php echo __ROOT__; ?>">Becas</a>
+            </div>
         </div>
-        <div class="navbar__list">
-            <ul class="flex">
-                <li class="m-2"><a target="_blank" class="a--colorFirst" href="https://www.instagram.com/marquezymoncadaui/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-                <li class="m-2"><a target="_blank" class="a--colorFirst" href="https://www.linkedin.com/in/m%C3%A1rquez-y-moncada-unidad-de-inspecci%C3%B3n/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
-                <li class="m-2"><a target="_blank" class="a--colorFirst" href="https://www.facebook.com/M%C3%A1rquez-y-Moncada-UI-107009425367129/"><i class="fa-brands fa-square-facebook fa-2xl"></i></i></a></li>
-                <li class="m-2"><a target="_blank" class="a--colorFirst" href="https://www.tiktok.com/@marquezymoncadaui?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok fa-2xl"></i></i></a></li>
-            </ul>
+        <div class="">
+            <h3 class="font-weight-bold">Contácto</h3>
+            <div class="my-3 mx-0">
+                <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/icon/location.png" >
+                <spam class="text--colorFirst">Calzada de Tlálpan #1621 Colonia Portales Delegación Benito Juárez México, D.F.</spam>
+            </div>
+            <div class="my-3 mx-0">
+                <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/icon/tel.png" >
+                <spam class="text--colorFirst">Tel :55 7407 3434 o 55 5539 6942</spam>
+            </div>
+            <div class="my-3 mx-0">
+                <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/icon/reloj.png" >
+                <spam class="text--colorFirst">Horario: 8 a 20</spam>
+            </div>
+            <div class="my-3 mx-0">
+                <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/icon/email.png" >
+                <spam class="text--colorFirst">info@nunezfragoso.com</spam>
+            </div>
         </div>
     </div>
 </footer>
