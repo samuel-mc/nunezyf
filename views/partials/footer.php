@@ -6,31 +6,31 @@
         <div class="navbar__list">
             <ul class="flex-row flex-wrap align-items-center">
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>">Inicio
+                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>">Inicio
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>#unidadDeInspeccion">Servicios
+                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>#unidadDeInspeccion">Servicios
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>solicitud">Solicitud
+                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>solicitud">Solicitud
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>acerca">Acerca
+                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>acerca">Acerca
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>contacto">Contacto
+                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>contacto">Contacto
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="<?php echo __ROOT__; ?>preguntas">Preguntas frecuentes
+                    <a class="a--colorFirst" href="<?php echo __ROOT__; ?>preguntas">Preguntas frecuentes
                     </a>
                 </li>
                 <li class="my-3 mx-3">
-                    <a class="a--darkBlue" href="https://jumpshare.com/v/o8pcODbKJASSs5uhOqF7" target="_blank">
+                    <a class="a--colorFirst" href="https://jumpshare.com/v/o8pcODbKJASSs5uhOqF7" target="_blank">
                         Aviso de privacidad
                     </a>
                 </li>
@@ -38,10 +38,10 @@
         </div>
         <div class="navbar__list">
             <ul class="flex">
-                <li class="m-2"><a target="_blank" class="a--darkBlue" href="https://www.instagram.com/marquezymoncadaui/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-                <li class="m-2"><a target="_blank" class="a--darkBlue" href="https://www.linkedin.com/in/m%C3%A1rquez-y-moncada-unidad-de-inspecci%C3%B3n/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
-                <li class="m-2"><a target="_blank" class="a--darkBlue" href="https://www.facebook.com/M%C3%A1rquez-y-Moncada-UI-107009425367129/"><i class="fa-brands fa-square-facebook fa-2xl"></i></i></a></li>
-                <li class="m-2"><a target="_blank" class="a--darkBlue" href="https://www.tiktok.com/@marquezymoncadaui?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok fa-2xl"></i></i></a></li>
+                <li class="m-2"><a target="_blank" class="a--colorFirst" href="https://www.instagram.com/marquezymoncadaui/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+                <li class="m-2"><a target="_blank" class="a--colorFirst" href="https://www.linkedin.com/in/m%C3%A1rquez-y-moncada-unidad-de-inspecci%C3%B3n/"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+                <li class="m-2"><a target="_blank" class="a--colorFirst" href="https://www.facebook.com/M%C3%A1rquez-y-Moncada-UI-107009425367129/"><i class="fa-brands fa-square-facebook fa-2xl"></i></i></a></li>
+                <li class="m-2"><a target="_blank" class="a--colorFirst" href="https://www.tiktok.com/@marquezymoncadaui?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok fa-2xl"></i></i></a></li>
             </ul>
         </div>
     </div>

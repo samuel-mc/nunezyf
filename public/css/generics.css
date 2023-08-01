@@ -1,6 +1,6 @@
 :root {
-    --dark-blue: #182B61;
-    --medium-blue: #475FA2;
+    --color-first: #846B29;
+    --color-second: #EDE6CF;
     --yellow: #FFF212;
     --gray: #6D7280;
     --text-sm: 16px;
@@ -21,38 +21,38 @@
     transition: all 0.3s ease-in-out;
 }
 
-.btn--darkblue {
-    background-color: var(--dark-blue);
+.btn--colorFirst {
+    background-color: var(--color-first);
     border: none;
     color: white;
 }
 
-.btn--darkblue:hover {
-    background-color: var(--medium-blue);
+.btn--colorFirst:hover {
+    background-color: var(--color-second);
+    border: none;
+    color: var(--color-first);
+}
+
+.btn--colorSecond {
+    background-color: var(--color-second);
     border: none;
     color: white;
 }
 
-.btn--mediumblue {
-    background-color: var(--medium-blue);
-    border: none;
-    color: white;
-}
-
-.btn--mediumblue:hover {
+.btn--colorSecond:hover {
     background-color: white;
     border: none;
-    color: var(--medium-blue);
+    color: var(--color-second);
 }
 
 .btn--yellow {
     background-color: var(--yellow);
     border: none;
-    color: var(--dark-blue);
+    color: var(--color-first);
 }
 
 .btn--yellow:hover {
-    background-color: var(--dark-blue);
+    background-color: var(--color-first);
     border: none;
     color: var(--yellow);
 }
@@ -66,7 +66,7 @@
 .btn--transparent:hover {
     background-color: var(--yellow);
     border: 1px solid var(--yellow);
-    color: var(--dark-blue);
+    color: var(--color-first);
 }
 
 .btn--square {
@@ -74,20 +74,20 @@
     width: 40px;
 }
 
-.a--darkBlue {
-    color: var(--dark-blue) !important;
+.a--colorFirst {
+    color: black;
 }
 
-.a--darkBlue:hover {
-    color: var(--medium-blue) !important;
+.a--colorFirst:hover {
+    color: var(--color-first) !important;
 }
 
-.text--darkBlue {
-    color: var(--dark-blue);
+.text--colorFirst {
+    color: var(--color-first);
 }
 
-.text--mediumBlue {
-    color: var(--medium-blue);
+.text--colorSecond {
+    color: var(--color-second);
 }
 
 .text--yellow {
@@ -174,15 +174,25 @@
     max-width: 1280px;
 }
 
+.opacity-80 {
+    opacity: 0.8;
+}
+
 .bg--image2 {
-    background-image: url('../img/home/carouselBg.png');
+    background-image: url('../img/lineas.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-
-.bg--mediumBlue {
-    background-color: var(--medium-blue);
+.bg--hero {
+    background-image: url('../img/hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 40px 40px;
+}
+.bg--colorSecond {
+    background-color: var(--color-second);
 }
 
 .hero--bg {

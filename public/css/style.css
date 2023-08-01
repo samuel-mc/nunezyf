@@ -46,7 +46,7 @@ html {
 
 .navbar__list ul li {
     margin: 0 12px;
-    color: var(--dark-blue);
+    color: var(--color-first);
     font-weight: bold !important;
     transition: all 0.3s ease-in-out;
 }
@@ -57,7 +57,7 @@ html {
 }
 
 .nav__mobile {
-    background-color: #182B61;
+    background-color: var(--color-second);
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -79,7 +79,7 @@ html {
 }
 
 .normas__card {
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--color-first);
     text-align: center;
 }
 
@@ -156,7 +156,10 @@ html {
     width: 364px;
     height: 650px;
 }
-
+.sobreponerBtn{
+    top: 50%;
+    left: -5px;
+}
 /* .pswp__img {
     height: auto !important;
 } */
