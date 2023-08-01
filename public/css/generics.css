@@ -1,6 +1,7 @@
 :root {
     --color-first: #846B29;
     --color-second: #EDE6CF;
+    --color-third: #FFFFFF;
     --yellow: #FFF212;
     --gray: #6D7280;
     --text-sm: 16px;
@@ -23,13 +24,12 @@
 
 .btn--colorFirst {
     background-color: var(--color-first);
-    border: none;
     color: white;
 }
 
 .btn--colorFirst:hover {
     background-color: var(--color-second);
-    border: none;
+    border-color: var(--color-first);
     color: var(--color-first);
 }
 
@@ -45,16 +45,15 @@
     color: var(--color-second);
 }
 
-.btn--yellow {
-    background-color: var(--yellow);
-    border: none;
+.btn--colorThird {
+    background-color: var(--color-third);
+    border-color: var(--color-first);
     color: var(--color-first);
 }
 
-.btn--yellow:hover {
-    background-color: var(--color-first);
-    border: none;
-    color: var(--yellow);
+.btn--colorThird:hover {
+    background-color: var(--color-second);
+    color: var(--color-first);
 }
 
 .btn--transparent {
@@ -145,6 +144,11 @@
     gap: 12px;
 }
 
+.gap-4 {
+    display: grid;
+    gap: 24px;
+}
+
 .gap-8 {
     display: grid;
     gap: 48px;
@@ -175,7 +179,8 @@
 }
 
 .opacity-80 {
-    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.75); /* Opacidad del 85% con color de fondo blanco */
+    backdrop-filter: blur(10px); 
 }
 
 .bg--image2 {
@@ -190,6 +195,9 @@
     background-size: cover;
     background-position: center;
     border-radius: 0 0 40px 40px;
+}
+.bg--colorFirst {
+    background-color: var(--color-first);
 }
 .bg--colorSecond {
     background-color: var(--color-second);
@@ -210,6 +218,10 @@
 .of--cover {
     object-fit: cover;
 }
+.card__space{       /*Estilo para agregar espacio en algun grid*/
+    display: block;
+}
+
 
 @media (max-width: 990px) {
     .grid--2cols {
@@ -222,6 +234,9 @@
 
     .w--50 {
         width: 100%;
+    }
+    .card__space{
+        display: none;
     }
 }
 
