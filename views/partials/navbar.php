@@ -1,9 +1,9 @@
 <header class="d-none d-lg-block bg--colorSecond bg--image2">
     <div class="container d-flex justify-content-between align-items-center py-3">
         <a href="<?php echo __ROOT__; ?>">
-            <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
+            <img class="img-fluid font" src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="">
         </a>
-        <nav class="navbar__list">
+        <nav class="navbar__list font--workSans">
             <ul>
                 <li><a class="a--colorFirst text--colorFirst" href="<?php echo __ROOT__; ?>#home">Home</a></li>
                 <li><a class="a--colorFirst" href="<?php echo __ROOT__; ?>#solicitud">Acerca</a></li>
@@ -12,7 +12,7 @@
             </ul>
         </nav>
 
-        <a href="<?php echo __ROOT__; ?>#contacto" class="btn btn-primary btn--colorFirst px-4 py-2">
+        <a href="<?php echo __ROOT__; ?>#contacto" class="btn btn-primary btn--colorFirst px-4 py-2 font--workSans">
             INSCRÍBETE
         </a>
     </div>
@@ -21,17 +21,17 @@
 <header class="py-2 px-4 w-full d-lg-none">
     <div class="d-flex justify-content-between">
         <a href="<?php echo __ROOT__; ?>">
-            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="">
+            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="w--128">
         </a>
         <button class="p-2 btn btn-primary btn--colorFirst btn--square" onclick="toggleShowMenu()">
             <i class="fa-solid fa-bars"></i>
         </button>
     </div>
 </header>
-<nav class="notShowed nav__mobile bg--image2" id="mobileMenu">
+<nav class="notShowed nav__mobile bg--image2 font--workSans" id="mobileMenu">
     <div class="d-flex flex-column justify-content-between px-4 py-8 h-75">
         <div class="d-flex justify-content-between p-4">
-            <img src="<?php echo __ROOT__; ?>/public/img/logo.png">
+            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" class="w--128">
             <button class="btn btn-danger btn--square d-flex justify-content-center" onclick="toggleShowMenu()">
                 <i class="fa-solid fa-x"></i>
             </button>

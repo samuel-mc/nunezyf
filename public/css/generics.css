@@ -8,6 +8,8 @@
     --text-md: 20px;
     --text-lg: 28px;
     --text-xl: 40px;
+    --text-2xl: 60px;
+    --text-3xl: 80px;
 
 }
 
@@ -118,8 +120,20 @@
     font-size: var(--text-xl);
 }
 
+.text--2xl {
+    font-size: var(--text-2xl);
+}
+
+.text--3xl {
+    font-size: var(--text-3xl);
+}
+
 .text--start {
     text-align: start;
+}
+
+.font--workSans {
+    font-family: 'Work Sans', sans-serif;
 }
 
 .grid--2cols {
@@ -165,6 +179,10 @@
 
 .w--64 {
     width: 64px;
+}
+
+.w--128 {
+    width: 128px;
 }
 
 .h--64 {
@@ -249,6 +267,14 @@
     }
     .card__space{
         display: none;
+    }
+
+    .text--2xl {
+        font-size: var(--text-lg);
+    }
+
+    .text--3xl {
+        font-size: var(--text-xl);
     }
 }
 

@@ -1,4 +1,4 @@
-<footer class="container-fluid maxw--1280 bg--footer text--colorFirst p-1 p-sm-4"> 
+<footer class="container-fluid maxw--1280 bg--footer text--colorFirst p-3 p-sm-4 font--workSans"> 
     <div class="grid--3cols align-items-center">
         <div class="gap-4">
             <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo de la empresa">
