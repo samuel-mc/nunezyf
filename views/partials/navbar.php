@@ -6,9 +6,9 @@
         <nav class="navbar__list font--workSans">
             <ul>
                 <li><a class="a--colorFirst text--colorFirst" href="<?php echo __ROOT__; ?>#home">Home</a></li>
-                <li><a class="a--colorFirst" href="<?php echo __ROOT__; ?>#solicitud">Acerca</a></li>
-                <li><a class="a--colorFirst" href="<?php echo __ROOT__; ?>#acerca">Programas academicos</a></li>
-                <li><a class="a--colorFirst" href="<?php echo __ROOT__; ?>#contacto">Becas</a></li>
+                <li><a class="a--colorFirst" href="<?php echo __ROOT__; ?>#acerca">Acerca</a></li>
+                <li><a class="a--colorFirst" href="<?php echo __ROOT__; ?>#programas">Programas academicos</a></li>
+                <li><a class="a--colorFirst" href="<?php echo __ROOT__; ?>#becas">Becas</a></li>
             </ul>
         </nav>
 

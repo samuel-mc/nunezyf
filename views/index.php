@@ -27,7 +27,7 @@
         </div>
     </section>
 
-    <section class="grid--2cols text--colorFirst container gap-4 align-items-center py-5">
+    <section class="grid--2cols text--colorFirst container gap-4 align-items-center py-5" id="acerca">
         <img class="p-2 img-fluid" src="<?php echo __ROOT__; ?>/public/img/acerca.png">
         <div class="font--workSans">
             <h1 class="font-weight-bold text--2xl text-uppercase">Acerca de nosotros</h1>
@@ -252,7 +252,31 @@
         </div>
     </section>
 
-    <section class="bg--colorSecond font--workSans">
+    <section class="container text-center text--colorFirst pb-5">
+        <h1 class="font-weight-bold py-4 text-center text--2xl text-uppercase">Inscripciones</h1>
+        <div class="d-flex flex-column flex-lg-row">
+            <div class="shadow-lg p-2 rounded-lg">
+                <h3 class="font-weight-bold">Solicitud</h3>
+                <p>Envía tu solicitud de inscripción a través de nuestro formato oficial, mail o whatsapp y un asesor se pondrá en contacto.</p>
+            </div>
+            <div>
+                <img class="h-1/2" src="<?php echo __ROOT__; ?>/public/img/icon/flecha.png">
+            </div>
+            <div class="shadow-lg p-2 rounded-lg">
+                <h3 class="font-weight-bold">Calcula tu beca</h3>
+                <p>Posterior al acercamiento de nuestro asesor, recopilaremos tus datos; promedio anterior y aptitudes con lo ofreceremos un descuento único.</p>
+            </div>
+            <div>
+                <img class="h-1/2" src="<?php echo __ROOT__; ?>/public/img/icon/flecha.png">
+            </div>
+            <div class="shadow-lg p-2 rounded-lg">
+                <h3 class="font-weight-bold">Inscripción</h3>
+                <p>Una vez tengamos tu porcentaje de beca podremos dar inicio a tu inscripción online y visita al campus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg--colorSecond font--workSans" id="becas">
         <div class="container grid--2cols">
             <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/becas.png">
             <div class="py-4 p-sm-4 text--colorFirst">
@@ -265,7 +289,7 @@
         </div>
     </section>
 
-    <section class="text--colorFirst container grid--2cols py-5 align-items-center gap- font--workSans">
+    <section class="text--colorFirst container grid--2cols py-5 align-items-center gap- font--workSans" id="contacto">
         <form id="formulario" class="radius-md shadow-lg text-left py-4 px-5 rounded-lg gap-2">
             <h1 class="font-weight-bold text-center">Contactar</h1>
             <div>
